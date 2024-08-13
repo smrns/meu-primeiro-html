@@ -1,0 +1,215 @@
+/* Regras de formatação */
+
+/* definição das regras para smartphone */
+ 
+/* captura a resolução da tela até 480px */
+@media screen and (max-width:480px){
+
+*{ 
+  /* define a distância entre os elementos HTML */
+  margin: 0px; 
+  /* espaçamento interno, entre a borda do elemento e o conteúdo */
+  padding: 0px;
+}
+
+body{ 
+   /* indica a cor de plano de fundo */
+   background-color: #9400D3; 
+   
+   /* indica a cor de padrão de texto */
+   color: #00F5FF;
+   /* define a fonte padrão do odcumento */
+   font-family: arial, helvetica, tahoma;
+   
+   /* define o padrão do texto */
+   font-size: 19px; 
+}
+
+header{ 
+   background-color: #1E90FF;
+   color: #000000;
+   /* definição de largura e altura */
+   width: 100%; 
+   /* define a altura do elemento */ 
+   height: 80px; 
+   /* define o espaçamento superior */ 
+   padding-top: 40px; 
+}
+
+section{ 
+   width: 100%; 
+}
+
+h1{
+	color:#000000;
+	/* define o padrão de alinhamento do texto*/
+	text-align:center; 
+	/*aplica uma linha ao texto do elemento*/
+	text-decoration: overline; 
+	/* define o estilo da fonte */ 
+	font-style: italic;
+}
+
+h2{
+	text-align: right; 
+	text-decoration: line-through;
+	font-style: oblique; /* estilo negrito */
+}
+
+h3{
+	/* o valor NONE desativa a propriedade text-decoration */
+	text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+
+} /* fim das regras para smartphone */ 
+
+
+
+
+
+
+
+
+
+
+
+
+/* captura a resolução da tela acima de 480px */
+@media screen and (min-width:481px) and (max-width:800px){
+
+*{ 
+  /* define a distância entre os elementos HTML */
+  margin: 0px; 
+  /* espaçamento interno, entre a borda do elemento e o conteúdo */
+  padding: 0px;
+}
+
+body{ 
+   /* indica a cor de plano de fundo */
+   background-color: #9400D3; 
+   
+   /* indica a cor de padrão de texto */
+   color: #00F5FF;
+   /* define a fonte padrão do odcumento */
+   font-family: arial, helvetica, tahoma;
+   
+   /* define o padrão do texto */
+   font-size: 19px; 
+}
+
+header{ 
+   background-color:#FF00FF;
+   color: #000000;
+   /* definição de largura e altura */
+   width: 100%; 
+   /* define a altura do elemento */ 
+   height: 80px; 
+   /* define o espaçamento superior */ 
+   padding-top: 40px; 
+}
+
+section{ 
+   width: 100%; 
+}
+
+h1{
+	color: #000000;
+	/* define o padrão de alinhamento do texto*/
+	text-align:center; 
+	/*aplica uma linha ao texto do elemento*/
+	text-decoration: overline; 
+	/* define o estilo da fonte */ 
+	font-style: italic;
+}
+
+h2{
+	text-align: right; 
+	text-decoration: line-through;
+	font-style: oblique; /* estilo negrito */
+}
+
+h3{
+	/* o valor NONE desativa a propriedade text-decoration */
+	text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+
+} /* fim das regras para tablet */ 
+
+
+
+
+
+
+
+
+
+/* captura a resolução da tela desktop */
+@media screen and (min-width:801px) and (max-width:1920px){
+
+*{ 
+  /* define a distância entre os elementos HTML */
+  margin: 0px; 
+  /* espaçamento interno, entre a borda do elemento e o conteúdo */
+  padding: 0px;
+}
+
+body{ 
+   /* indica a cor de plano de fundo */
+   background-color: #9400D3; 
+   
+   /* indica a cor de padrão de texto */
+   color: #00F5FF;
+   /* define a fonte padrão do odcumento */
+   font-family: arial, helvetica, tahoma;
+   
+   /* define o padrão do texto */
+   font-size: 19px; 
+   /* definindo a imagem de plano de fundo */
+   background-image: url(../imagem/tecc3.jpg);
+   /* bloqueando a repetição da imagem */
+   background-repeat: no-repeat;
+   /* bloqueia a rolagem da imagem */
+   background-attachment: fixed; 
+   /* preenche a tela toda com a imagem de plano de fundo */ 
+   background-size: 100% 100%; 
+}
+
+header{ 
+   background-color:#FFFFFF;
+   color:#9B30FF;
+   /* definição de largura e altura */
+   width: 1024px; 
+   /* define a altura do elemento */ 
+   height: 80px; 
+   /* define o espaçamento superior */ 
+   padding-top: 40px; 
+   /* centraliza o layout */
+   margin: 0 auto;
+}
+
+section{ 
+   width:1024px; 
+   margin: 0 auto;
+}
+
+h1{
+	color: #000000;
+	/* define o padrão de alinhamento do texto*/
+	text-align:center; 
+	/*aplica uma linha ao texto do elemento*/
+	text-decoration: overline; 
+	/* define o estilo da fonte */ 
+	font-style: italic;
+}
+
+h2{
+	text-align: right; 
+	text-decoration: line-through;
+	font-style: oblique; /* estilo negrito */
+}

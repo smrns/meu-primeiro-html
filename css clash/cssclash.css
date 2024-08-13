@@ -1,0 +1,156 @@
+
+/* Regras de formatação */
+
+/* Definição das regras para smartphone */
+
+/* Captura a resolução da tela até 480px */
+
+@media screen and (max width:480px) {
+
+
+*{ 
+   margin: 0px;
+   padding: 0px;
+
+body{
+
+   background-color:    ;
+
+   color:    ;
+
+   font-family: arial;
+
+   font-size: 19px;
+}
+
+header{
+
+   baclground-color:    ;
+
+   color:     ;
+   
+   width: 100%;
+
+   height: 80px;
+
+   padding-top: 40px;
+}
+
+section{
+   width: 100&;
+}
+
+h1 {
+    color:    ;
+    text-align:center;
+    text-style:normal;
+}
+
+falta h2, h3, quantos eu colocar, tenho que definir a cor, style e align
+
+
+
+
+
+
+
+
+
+
+
+/* captura a resolução da tela acima de 480px */
+
+@media screen and (min-width:481px) and (max-width:800px) {
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+
+    background-color:    ;
+
+    color:    ;
+
+    font-family:   ;
+
+    font-size: 19px;
+}
+
+header{
+   
+   backgroud-color:   ;
+
+   width: 100%; 
+   
+   height: 80px; 
+   
+   padding-top: 40px; 
+} 
+
+section{
+   width: 100%; 
+}
+
+h1 {
+    color:    ;
+    text-align:center;
+    text-style:normal;
+}
+  
+ falta h2, h3, quantos eu colocar, tenho que definir a cor, style e align
+
+
+
+
+
+
+
+
+/* captura a resolução da tela desktop */
+
+@media screen and (min-width:801px) and (max-width:1920px){
+
+*{ 
+  margin: 0px; 
+  padding: 0px;
+}
+ 
+body{
+     background-color:   ;
+     
+     color:    ;
+
+    font-family: arial;
+
+    font-size: 19px;
+}
+
+header{ 
+   background-color:   ;
+   color:    ;
+   
+   width: 1024px%; 
+   
+   height: 80px; 
+   
+   padding-top: 40px; 
+   
+   margin: 0 auto;
+}
+
+section{ 
+   width:1024px; 
+   margin: 0 auto;
+}
+
+h1{
+    color:   ;
+	
+    text-align:center; 
+	
+    font-style: normal;
+}
+
+falta h2, h3, quantos eu colocar, tenho que definir a cor, style e align
